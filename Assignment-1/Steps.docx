@@ -1,0 +1,33 @@
+Steps to Create a GIT Repository and Organize Folders:
+
+1. **Create the Repository on GitHub:**  
+   - Go to https://github.com/ and sign in to your account.  
+   - Click the New button to create a new repository.  
+   - Set the repository name as your enrollment number: 2302031830020.  
+   - Select Public or Private as needed.  
+   - Check the Initialize this repository with a README option.  
+   - Click Create repository.
+
+2. Clone the Repository to Your Desktop:  
+   Open Git Bash or your terminal and run the following command:  
+   ```bash
+   git clone https://github.com/random-person-on-internet/2302031830020.git
+   ``` 
+
+3. Create .gitkeep Files in Each Folder:
+   This ensures Git recognizes the empty folders when pushing changes.  
+
+4. Stage Changes:  
+   ```bash
+   git add .
+   ```
+
+5. Commit the Changes: 
+   ```bash
+   git commit -m "Initial commit with folder structure"
+   ```
+
+6. Push to GitHub:  
+   ```bash
+   git push origin main
+   ```
